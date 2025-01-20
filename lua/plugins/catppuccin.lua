@@ -1,6 +1,7 @@
 return {
   "catppuccin/nvim",
   name = "catppuccin",
+
   opts = {
     flavour = "Mocha",
     color_overrides = {
@@ -35,10 +36,10 @@ return {
         -- base = "#000000",
         -- mantle = "#000000",
         -- crust = "#000000",
-        
-        base = "#161616",
-        mantle = "#0b0b0b",
-        crust = "#000000"
+
+        base = "#0b0b0b",
+        mantle = "#000000",
+        crust = "#000000",
       },
     },
     transparent_background = false,

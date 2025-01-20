@@ -13,6 +13,7 @@ return {
     -- change colorscheme
     -- colorscheme = "tokyonight-night",
     colorscheme = "catppuccin",
+    -- colorscheme = "moonfly",
 
     -- colorscheme = "astrodark",
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
