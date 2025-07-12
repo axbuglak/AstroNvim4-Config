@@ -18,11 +18,12 @@ return {
       diagnostics_mode = 2, -- diagnostic mode on start (0 = off, 1 = no signs/virtual text, 2 = no virtual text, 3 = on)
       highlighturl = true, -- highlight URLs at start
       notifications = true, -- enable notifications at start
-
+      devicons = true, -- enable devicons at start
     },
     -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
     diagnostics = {
 
+      virtual_text = false,
       underline = true,
     },
     -- vim options can be configured here
@@ -33,7 +34,6 @@ return {
         spell = false, -- sets vim.opt.spell
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
-        
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)

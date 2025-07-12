@@ -125,7 +125,7 @@ return {
         }),
         -- we want an empty space here so we can use the component builder to make a new section with just an empty string
         status.component.builder({
-          { provider = "" },
+          -- { provider = "" },
           -- define the surrounding separator and colors to be used inside of the component
           -- and the color to the right of the separated out section
           surround = { separator = "left", color = { main = status.hl.mode_bg(), right = "file_info_bg" } },
