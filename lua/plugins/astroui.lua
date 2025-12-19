@@ -13,6 +13,7 @@ return {
     -- change colorscheme
     -- colorscheme = "tokyonight-night",
     colorscheme = "catppuccin",
+    -- colorscheme = "onedark",
     -- colorscheme = "moonfly",
 
     -- colorscheme = "astrodark",
